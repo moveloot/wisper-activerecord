@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wisper/active_record/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "moveloot-wisper-activerecord"
+  spec.name          = "wisper-activerecord"
   spec.version       = Wisper::ActiveRecord::VERSION
   spec.authors       = ["Kris Leech"]
   spec.email         = ["kris.leech@gmail.com"]
